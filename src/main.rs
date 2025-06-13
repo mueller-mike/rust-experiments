@@ -6,12 +6,11 @@ use experiments::hello;
 use std::io;
 
 fn main() {
-    
     println!("[SYSTEM] Welcome to the Rust-Experiments program!");
-    
+
     loop {
         print_available_programs();
-        
+
         let mut program_selection = String::new();
         io::stdin()
             .read_line(&mut program_selection)

@@ -2,5 +2,12 @@
 name = "rust-experiments"
 version = "0.1.0"
 edition = "2024"
+authors = ["Mike Müller mike.mueller28@outlook.com"]
+description = "A collection of small experiments in Rust."
+license = "MIT"
 
 [dependencies]
+
+[[bin]]
+name = "rust-experiments"
+path = "src/main.rs"

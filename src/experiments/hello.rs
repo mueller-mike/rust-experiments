@@ -1,5 +1,5 @@
-use std::time::Duration;
 use std::thread;
+use std::time::Duration;
 
 pub fn run() {
     thread::sleep(Duration::from_millis(500));

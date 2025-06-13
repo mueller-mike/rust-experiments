@@ -16,7 +16,7 @@ pub fn run() {
 
     loop {
         println!("Please enter your desired operation:");
-        
+
         let mut command = String::new();
         io::stdin()
             .read_line(&mut command)
@@ -29,7 +29,7 @@ pub fn run() {
                 println!("[SYSTEM] Calculator Finished Execution");
                 break;
             }
-            "addition" | "1" | "subtract" | "2" |"multiply" | "3" | "divide" | "4" => {
+            "addition" | "1" | "subtract" | "2" | "multiply" | "3" | "divide" | "4" => {
                 println!("Please enter x value:");
                 let mut x = String::new();
                 io::stdin().read_line(&mut x).expect("Failed to read line");
